@@ -1,0 +1,304 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Timer:NE555P U1
+U 1 1 64F9F70A
+P 5050 2950
+F 0 "U1" H 5050 3531 50  0000 C CNN
+F 1 "NE555P" H 5050 3440 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 5700 2550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" H 5900 2550 50  0001 C CNN
+	1    5050 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D3
+U 1 1 64F9FF5A
+P 6000 3150
+F 0 "D3" H 6000 3050 50  0000 C CNN
+F 1 "1N4148" H 6000 2950 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6000 2975 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6000 3150 50  0001 C CNN
+	1    6000 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:ELKO C1
+U 1 1 64FA140E
+P 6450 4400
+F 0 "C1" H 6568 4446 50  0000 L CNN
+F 1 "220uF" H 6568 4355 50  0000 L CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 6488 4250 50  0001 C CNN
+F 3 "~" H 6450 4400 50  0001 C CNN
+	1    6450 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:R R3
+U 1 1 64FA24A9
+P 3700 4200
+F 0 "R3" H 3770 4246 50  0000 L CNN
+F 1 "560k" H 3770 4155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3630 4200 50  0001 C CNN
+F 3 "~" H 3700 4200 50  0001 C CNN
+	1    3700 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:R R4
+U 1 1 64FA3399
+P 3700 4800
+F 0 "R4" H 3770 4846 50  0000 L CNN
+F 1 "390k" H 3770 4755 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3630 4800 50  0001 C CNN
+F 3 "~" H 3700 4800 50  0001 C CNN
+	1    3700 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_EBC Q1
+U 1 1 64FA371B
+P 4250 4500
+F 0 "Q1" H 4441 4546 50  0000 L CNN
+F 1 "Q_NPN_EBC" H 4441 4455 50  0000 L CNN
+F 2 "!Goody:TO-92-Transistor" H 4450 4600 50  0001 C CNN
+F 3 "~" H 4250 4500 50  0001 C CNN
+	1    4250 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_EBC Q2
+U 1 1 64FA3D42
+P 4550 4000
+F 0 "Q2" H 4741 4046 50  0000 L CNN
+F 1 "Q_NPN_EBC" H 4741 3955 50  0000 L CNN
+F 2 "!Goody:TO-92-Transistor" H 4750 4100 50  0001 C CNN
+F 3 "~" H 4550 4000 50  0001 C CNN
+	1    4550 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:LED D1
+U 1 1 64FA754A
+P 5550 4250
+F 0 "D1" H 5668 4189 50  0000 L CNN
+F 1 "LED" H 5668 4098 50  0000 L CNN
+F 2 "LED_THT:LED_D5.0mm" H 5550 4450 50  0001 C CNN
+F 3 "" V 5550 4150 50  0001 C CNN
+	1    5550 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:LED D2
+U 1 1 64FA7A13
+P 5950 4250
+F 0 "D2" H 6068 4189 50  0000 L CNN
+F 1 "LED" H 6068 4098 50  0000 L CNN
+F 2 "LED_THT:LED_D5.0mm" H 5950 4450 50  0001 C CNN
+F 3 "" V 5950 4150 50  0001 C CNN
+	1    5950 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:BAT_HLD_SMD U2
+U 1 1 64FA7CCC
+P 2850 3000
+F 0 "U2" H 2978 3091 50  0000 L CNN
+F 1 "BAT_HLD_SMD" H 2978 3000 50  0000 L CNN
+F 2 "!Goody:BAT-HLD-SMD-Blech" H 2978 2909 50  0000 L CNN
+F 3 "" H 2650 3000 50  0001 C CNN
+	1    2850 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:Micro_Schalter S1
+U 1 1 64FA8E01
+P 3350 2350
+F 0 "S1" H 3558 2209 50  0000 L CNN
+F 1 "Micro_Schalter" H 3350 2550 50  0001 C CNN
+F 2 "KHF_LIB:Micro_SchalterKHF" H 3558 2118 50  0000 L CNN
+F 3 "" H 3350 2350 50  0001 C CNN
+	1    3350 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 2750 2850 2450
+Wire Wire Line
+	2850 2450 3200 2450
+Wire Wire Line
+	3350 2450 3350 2250
+Wire Wire Line
+	3350 2250 4300 2250
+Wire Wire Line
+	5050 2250 5050 2550
+NoConn ~ 3500 2450
+Wire Wire Line
+	4550 3150 4300 3150
+Wire Wire Line
+	4300 3150 4300 2250
+Connection ~ 4300 2250
+Wire Wire Line
+	4300 2250 5050 2250
+Wire Wire Line
+	2850 3250 2850 5150
+Wire Wire Line
+	5950 5150 5950 4500
+Wire Wire Line
+	5050 3350 5050 5150
+Wire Wire Line
+	2850 5150 3700 5150
+Connection ~ 5050 5150
+Wire Wire Line
+	5050 5150 5550 5150
+Wire Wire Line
+	5550 4200 5950 4200
+Wire Wire Line
+	5550 4500 5550 5150
+Connection ~ 5550 5150
+Wire Wire Line
+	5550 5150 5950 5150
+Wire Wire Line
+	3700 4950 3700 5150
+Connection ~ 3700 5150
+Wire Wire Line
+	3700 4650 3700 4500
+Wire Wire Line
+	4050 4500 3700 4500
+Connection ~ 3700 4500
+Wire Wire Line
+	3700 4500 3700 4350
+$Comp
+L !Goody:R R6
+U 1 1 64FABE4C
+P 4650 3550
+F 0 "R6" H 4720 3596 50  0000 L CNN
+F 1 "10R" H 4720 3505 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4580 3550 50  0001 C CNN
+F 3 "~" H 4650 3550 50  0001 C CNN
+	1    4650 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3400 4300 3400
+Wire Wire Line
+	4300 3400 4300 3150
+Connection ~ 4300 3150
+NoConn ~ 6650 3300
+Wire Wire Line
+	6150 3050 6150 3150
+Wire Wire Line
+	6150 3050 6500 3050
+Wire Wire Line
+	5850 3150 5650 3150
+Connection ~ 5650 3150
+Wire Wire Line
+	5650 3150 5550 3150
+Wire Wire Line
+	4350 4700 4350 5150
+Wire Wire Line
+	3700 5150 4350 5150
+Connection ~ 4350 5150
+Wire Wire Line
+	4350 5150 5050 5150
+Wire Wire Line
+	5550 4200 4650 4200
+Connection ~ 5550 4200
+Wire Wire Line
+	4650 3800 4650 3700
+Wire Wire Line
+	4350 4000 4350 4300
+Wire Wire Line
+	6450 4550 6450 5150
+Wire Wire Line
+	6450 5150 5950 5150
+Connection ~ 5950 5150
+Wire Wire Line
+	5650 3150 5650 3950
+Wire Wire Line
+	5650 3950 6450 3950
+Wire Wire Line
+	6450 3950 6450 4250
+Wire Wire Line
+	5050 2250 6650 2250
+Wire Wire Line
+	6650 2250 6650 2800
+Connection ~ 5050 2250
+$Comp
+L !Goody:Mini-Poti P1
+U 1 1 64FA1992
+P 7000 2950
+F 0 "P1" H 6778 2941 50  0000 L CNN
+F 1 "10k" H 6778 2850 50  0000 L CNN
+F 2 "!Goody:Mini-Poti" H 6778 2759 50  0000 L CNN
+F 3 "" V 6750 2900 50  0001 C CNN
+	1    7000 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L !Goody:R R5
+U 1 1 64FBC7F7
+P 4300 3550
+F 0 "R5" H 4370 3596 50  0000 L CNN
+F 1 "4k7" H 4370 3505 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4230 3550 50  0001 C CNN
+F 3 "~" H 4300 3550 50  0001 C CNN
+	1    4300 3550
+	1    0    0    -1  
+$EndComp
+Connection ~ 4300 3400
+Wire Wire Line
+	4300 3700 4300 4000
+Wire Wire Line
+	4300 4000 4350 4000
+Connection ~ 4350 4000
+NoConn ~ 5550 2750
+NoConn ~ 4550 2950
+Wire Wire Line
+	6150 3050 6150 2950
+Connection ~ 6150 3050
+Wire Wire Line
+	5550 2950 6150 2950
+Wire Wire Line
+	3700 2750 4500 2750
+$Comp
+L !Goody:R R7
+U 1 1 652252DE
+P 6150 2800
+F 0 "R7" H 6220 2846 50  0000 L CNN
+F 1 "2k7" H 6220 2755 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6080 2800 50  0001 C CNN
+F 3 "~" H 6150 2800 50  0001 C CNN
+	1    6150 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 6150 2950
+Wire Wire Line
+	3700 2750 3700 4050
+Wire Wire Line
+	6150 2650 6150 2500
+Wire Wire Line
+	6150 2500 5650 2500
+Wire Wire Line
+	4500 2500 4500 2750
+Connection ~ 4500 2750
+Wire Wire Line
+	4500 2750 4550 2750
+Wire Wire Line
+	5650 3150 5650 2500
+Connection ~ 5650 2500
+Wire Wire Line
+	5650 2500 4500 2500
+$EndSCHEMATC
