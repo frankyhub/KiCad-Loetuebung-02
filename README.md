@@ -19,7 +19,7 @@ NE555 Platinen, zwei LEDs
 |  1 | R6	10R  | 
 |  1 |  D3	1N4148  | 
 | 2  |  Q1, Q2	BC548  | 
-|  2 |   D1, D2	LED | 
+|  2 |   D1, D2	LED rt 3mm| 
 |  1 |  C1	47uF | 
 | -------- | -------- | 
 
