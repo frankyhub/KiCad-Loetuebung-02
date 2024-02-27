@@ -1,0 +1,4 @@
+
+(fp_lib_table
+  (lib (name "Tiger")(type KiCad)(uri "$(KIPRJMOD)/Tiger.pretty")(options "")(descr ""))
+)
