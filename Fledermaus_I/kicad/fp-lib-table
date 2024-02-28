@@ -1,0 +1,4 @@
+
+(fp_lib_table
+  (lib (name "Fledermaus I")(type KiCad)(uri "$(KIPRJMOD)/Fledermaus I.pretty")(options "")(descr ""))
+)
