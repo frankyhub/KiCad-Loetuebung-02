@@ -67,7 +67,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../../Gerber_Katze/")
+			(outputdirectory "Katze_Gerber/")
 		)
 	)
 	(net 0 "")
