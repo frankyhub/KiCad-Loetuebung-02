@@ -38,8 +38,6 @@ NE555 Platinen, zwei LEDs
 
 |	               |Löten I  |Löten II 	   |Löten III|
 |--|--|--|--|
-
-
 |1 x Platine		|:white_check_mark:|:white_check_mark:|:white_check_mark:|
 |1 x Batteriehalter 9V  |:white_check_mark:|:x:|:x:|
 |1 x Batterie 9V        |:white_check_mark:|:x:|:x:|
