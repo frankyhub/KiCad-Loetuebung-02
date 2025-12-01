@@ -1,0 +1,4 @@
+
+(fp_lib_table
+  (lib (name "Coala")(type KiCad)(uri "$(KIPRJMOD)/Coala.pretty")(options "")(descr ""))
+)
