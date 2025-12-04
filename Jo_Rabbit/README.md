@@ -1,3 +1,3 @@
 ## Lötübung Jo Rabbit
 
-![Bild](/pic/JoRabbitV.png)
+![Bild](/Jo_Rabbit/pic/JoRabbitV.png)
