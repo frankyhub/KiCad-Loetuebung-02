@@ -68,7 +68,7 @@ NE555 Platinen, zwei LEDs
 ---
 Beispiele
 
-![pic](/Tiger/pic/Tiger_F.png)![pic](/Kuh/pic/Cow_Fr.png)![pic](/Robi_I/pic/Robi_I_Fr.png)![pic](/Jo_Rabbit/pic/JoRabbitFr.png)
+![pic](/Tiger/pic/Tiger_Fr.png)![pic](/Kuh/pic/Cow_Fr.png)![pic](/Robi_I/pic/Robi_I_Fr.png)![pic](/Jo_Rabbit/pic/JoRabbitFr.png)
 
 
 ---
