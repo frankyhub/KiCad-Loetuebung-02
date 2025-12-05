@@ -1,0 +1,4 @@
+
+(fp_lib_table
+  (lib (name "GrumpyDuck")(type KiCad)(uri "$(KIPRJMOD)/GrumpyDuck.pretty")(options "")(descr ""))
+)
