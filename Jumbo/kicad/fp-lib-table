@@ -1,0 +1,4 @@
+
+(fp_lib_table
+  (lib (name "Jumpo")(type KiCad)(uri "$(KIPRJMOD)/Jumpo.pretty")(options "")(descr ""))
+)
