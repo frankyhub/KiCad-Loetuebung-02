@@ -1,3 +1,3 @@
 ## Lötübung Jumbo
 
-![pic](pic/JumpoV.png)![pic](pic/JumpoB.png)
+![pic](pic/jumboV.png)![pic](pic/jumboB.png)
