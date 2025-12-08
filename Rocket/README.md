@@ -1,3 +1,3 @@
 ## Lötübung Rocket
 
-![pic](pic/RocketV.png)![pic](pic/RocketB.png)
+![pic](pic/Rocket.png)![pic](pic/RocketB.png)
