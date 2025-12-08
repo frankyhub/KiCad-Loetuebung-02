@@ -488,7 +488,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../../../!Löten/temp/gerbers/",
+      "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -642,7 +642,7 @@
   },
   "sheets": [
     [
-      "07604417-79b6-449d-8295-1d1cde379efd",
+      "a15d1155-2f2a-458f-99da-e10d5bae0102",
       "Root"
     ]
   ],
