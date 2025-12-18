@@ -1,5 +1,5 @@
 ## Lötübung Santa
 
-![pic](pic/Santa.png)
+![pic](pic/Santapcb.png)
 
 ![pic](pic/SantaB.png)
