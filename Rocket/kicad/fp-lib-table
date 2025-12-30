@@ -1,0 +1,4 @@
+
+(fp_lib_table
+  (lib (name "Rocket")(type KiCad)(uri "$(KIPRJMOD)/Rocket.pretty")(options "")(descr ""))
+)
