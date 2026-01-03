@@ -1,0 +1,4 @@
+
+(fp_lib_table
+  (lib (name "Panda")(type KiCad)(uri "$(KIPRJMOD)/Panda.pretty")(options "")(descr ""))
+)
