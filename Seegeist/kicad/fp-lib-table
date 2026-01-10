@@ -1,0 +1,4 @@
+
+(fp_lib_table
+  (lib (name "Seegeist")(type KiCad)(uri "$(KIPRJMOD)/Seegeist.pretty")(options "")(descr ""))
+)
