@@ -1,4 +1,6 @@
 
 ## Lötübung Grumpy Duck
 
-![pic](pic/GrumpyDuck.png)
+![pic](pic/GrumpyDuckV.png)
+
+![pic](pic/GrumpyDuckB.png)
