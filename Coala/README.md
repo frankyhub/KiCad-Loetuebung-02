@@ -2,4 +2,6 @@
 
 ![pic](pic/Coala.png)
 
-![pic](pic/Coala_V.png) ![pic](pic/Coala_B.png)
+![pic](pic/Coala_V.png) 
+
+![pic](pic/Coala_B.png)
