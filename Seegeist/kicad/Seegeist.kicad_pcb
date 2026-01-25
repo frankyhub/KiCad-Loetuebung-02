@@ -888,7 +888,7 @@
 	(footprint "!Goody:ob-logo_B.SilkS"
 		(layer "F.Cu")
 		(uuid "88135bc9-554b-41f2-898a-f46cc24891a3")
-		(at 141.95 97.85)
+		(at 143.1 148)
 		(descr "Oberlab-Logo B.SilkS")
 		(property "Reference" "G***"
 			(at -5.675 -11.15 0)
@@ -3303,6 +3303,7 @@
 		(property "Value" "47uF"
 			(at 1.25 -4.4 0)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "113d9783-22f3-46c6-aaa6-bb83d5f140c6")
 			(effects
 				(font
@@ -4679,26 +4680,6 @@
 			(layer "B.SilkS")
 			(uuid "d7e11093-6349-43c6-95ca-8df0acd5b379")
 		)
-		(fp_line
-			(start -3.185 0.315)
-			(end -3.185 -0.315)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "5a535b46-a3b6-425b-8582-5532d66dd5e9")
-		)
-		(fp_line
-			(start -3.5 0)
-			(end -2.87 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "aa5fe318-a97d-421c-a46f-08bb59e77e15")
-		)
 		(fp_circle
 			(center 1.25 0)
 			(end 4.52 0)
@@ -4804,10 +4785,10 @@
 		(at 120.61 104.65 180)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
-		(property "Reference" "R7"
-			(at 5.08 0.014 0)
+		(property "Reference" "R5"
+			(at 4.953 -0.0114 0)
 			(layer "B.SilkS")
-			(uuid "d489b494-c4a2-48f2-aa62-7ff26797a77a")
+			(uuid "ec225cf2-8338-4341-9e57-de8b0ad4bc5b")
 			(effects
 				(font
 					(size 1 1)
@@ -4820,7 +4801,7 @@
 			(at 13.843047 -4.177 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "302c8012-dd78-47e6-a134-db1740f29101")
+			(uuid "147b5999-1125-445e-817f-b3324d410261")
 			(effects
 				(font
 					(size 1 1)
@@ -4833,7 +4814,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4f938432-4d1c-4f1a-bb46-e29402c60a3f")
+			(uuid "9d682a01-1923-4c48-a06e-d850ebd98a25")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4845,7 +4826,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d1ce2196-ca36-4ffb-8da8-b7c31b514522")
+			(uuid "bec1ebfe-0220-4efd-9848-98747b012de2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5015,18 +4996,6 @@
 			)
 			(layer "B.Fab")
 			(uuid "de9d275a-3a1f-4584-84b3-f14c15075ae2")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 5.08 0 0)
-			(layer "B.Fab")
-			(uuid "83ee9ab4-34ad-474a-ae94-5b4a50f8b45f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
@@ -5279,18 +5248,6 @@
 			(layer "B.Fab")
 			(uuid "07fa5771-0044-462b-84f1-4355af02cd7f")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 5.08 0 0)
-			(layer "B.SilkS")
-			(uuid "40088357-b950-431c-91cc-385421143a73")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
 			(size 1.6 1.6)
@@ -5542,18 +5499,6 @@
 			(layer "B.Fab")
 			(uuid "2474fa4c-8732-4ecb-80e9-95c8a7e74294")
 		)
-		(fp_text user "R3"
-			(at 4.826 -0.057 0)
-			(layer "B.SilkS")
-			(uuid "5014e377-d157-4e8d-9794-c27da0541947")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
 			(size 1.6 1.6)
@@ -5593,10 +5538,10 @@
 		(at 120.61 96.55 180)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
-		(property "Reference" "R5"
-			(at 4.953 0.042 0)
+		(property "Reference" "R3"
+			(at 4.953 -0.0342 0)
 			(layer "B.SilkS")
-			(uuid "944700cb-1c2a-40c1-be02-68dba8aab03b")
+			(uuid "692827e2-e5b6-4098-8b15-3f8c9da50981")
 			(effects
 				(font
 					(size 1 1)
@@ -5608,7 +5553,7 @@
 		(property "Value" "4k7"
 			(at 12.983809 -0.212 0)
 			(layer "B.SilkS")
-			(uuid "92b812c6-710e-456c-b818-b3219aa03eff")
+			(uuid "29d1a017-8670-41fd-aee6-47b3dd5e504f")
 			(effects
 				(font
 					(size 1 1)
@@ -5621,7 +5566,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c040ffe6-5bec-4831-9b19-bccc8530d96f")
+			(uuid "0a8884fc-c7f6-4c71-a5ff-9321ff753a5f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5633,7 +5578,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ace9d7da-53d6-4cd5-9b90-c17656b6ebd0")
+			(uuid "6ab8d96f-7e43-440e-9123-9bd9a212b5f5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5803,18 +5748,6 @@
 			)
 			(layer "B.Fab")
 			(uuid "ef517be4-faa3-4648-b1fa-69c9eb9227dd")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 5.08 0 0)
-			(layer "B.Fab")
-			(uuid "5d78bf77-ddc3-4cb6-8570-f51c12b0ff89")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
@@ -6406,10 +6339,10 @@
 		(at 120.61 108.7 180)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
-		(property "Reference" "R8"
+		(property "Reference" "R6"
 			(at 4.953 0 0)
 			(layer "B.SilkS")
-			(uuid "7d7bd1d8-9681-4597-a307-902f29a6ef36")
+			(uuid "b584255e-c068-476e-9128-00c3b1a6fd60")
 			(effects
 				(font
 					(size 1 1)
@@ -6421,7 +6354,7 @@
 		(property "Value" "12K"
 			(at 13.079047 0 0)
 			(layer "B.SilkS")
-			(uuid "f60f8966-dd52-4f8b-a2e6-a85a89f6fca8")
+			(uuid "5cac30e9-441b-4fca-8be1-d380e1540502")
 			(effects
 				(font
 					(size 1 1)
@@ -6434,7 +6367,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1041ed35-c64d-41f1-a859-eb4811bae8d0")
+			(uuid "f122a168-c0d4-438c-8028-395f36930c38")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6446,7 +6379,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "91289024-84ee-449b-8a8c-e20f99388684")
+			(uuid "4af54dc9-f957-4113-b045-ca137f795ad2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6617,18 +6550,6 @@
 			(layer "B.Fab")
 			(uuid "c18de697-5f17-49aa-a56d-0840e20d310c")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 5.08 0 0)
-			(layer "B.Fab")
-			(uuid "4e5655f9-40eb-4084-964e-ed632953972b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
 			(size 1.6 1.6)
@@ -6668,8 +6589,8 @@
 		(at 120.61 100.6 180)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
-		(property "Reference" "R6"
-			(at 5.08 0.028 0)
+		(property "Reference" "R4"
+			(at 4.953 -0.0228 0)
 			(layer "B.SilkS")
 			(uuid "06cc4aed-4e3b-401e-aefd-ca2e9c1fcd03")
 			(effects
@@ -6878,18 +6799,6 @@
 			)
 			(layer "B.Fab")
 			(uuid "80e84f0e-886f-4b63-b455-9253dac5cfcf")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 5.08 0 0)
-			(layer "B.Fab")
-			(uuid "c6baa7cb-a640-48b8-8213-2aa142b91bc2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
@@ -12257,7 +12166,7 @@
 		(uuid "fff55751-8915-4852-8c18-41ac11dc3468")
 	)
 	(gr_text "KHF 01.2026"
-		(at 142.2 65.55 0)
+		(at 141.9 137.2 0)
 		(layer "B.Cu")
 		(uuid "d8f77f90-46dd-42bd-9248-f92a11866f2b")
 		(effects
@@ -12268,20 +12177,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "KHF 11.2025"
-		(at 247.519 148.95 0)
-		(layer "B.Mask")
-		(uuid "1f0749eb-1f87-4cc6-817d-019eb13efa76")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom mirror)
-		)
-	)
 	(gr_text "KHF 01.2026"
-		(at 142.2 65.55 0)
+		(at 141.9 137.2 0)
 		(layer "B.Mask")
 		(uuid "59b8b784-1c50-423c-a134-e6e60ca13641")
 		(effects
@@ -12352,6 +12249,30 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "R2"
+		(at 115.657 92.5456 0)
+		(layer "B.SilkS")
+		(uuid "40088357-b950-431c-91cc-385421143a73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "R1"
+		(at 115.657 88.507 0)
+		(layer "B.SilkS")
+		(uuid "5014e377-d157-4e8d-9794-c27da0541947")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "1N4148"
 		(at 154.4 92.185 270)
 		(layer "B.SilkS")
@@ -12365,7 +12286,7 @@
 		)
 	)
 	(gr_text "E"
-		(at 98.85 90.75 180)
+		(at 99.8 90.8 180)
 		(layer "B.SilkS")
 		(uuid "74cc2b31-57c0-4938-b989-0a6c2bdc361a")
 		(effects
@@ -12373,7 +12294,7 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left bottom mirror)
+			(justify left bottom)
 		)
 	)
 	(gr_text "-"
@@ -12465,6 +12386,18 @@
 		(at 107.626191 104.89 0)
 		(layer "B.SilkS")
 		(uuid "f5d88248-ea3e-4b4a-8f61-2f26ea7dff8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "${REFERENCE}"
+		(at 115.53 100.6 0)
+		(layer "B.Fab")
+		(uuid "c6baa7cb-a640-48b8-8213-2aa142b91bc2")
 		(effects
 			(font
 				(size 1 1)
