@@ -1,0 +1,4 @@
+
+(fp_lib_table
+  (lib (name "Eule2")(type KiCad)(uri "$(KIPRJMOD)/Eule2.pretty")(options "")(descr ""))
+)
